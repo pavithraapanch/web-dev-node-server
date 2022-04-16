@@ -1,4 +1,4 @@
-import tuitsDao from '../../full-stack-node-server-web-dev/tuits-dao.js';
+import tuitsDao from '.././tuits-dao.js';
 
 export default (app) => {
     app.post('/api/tuits', createTuit);
